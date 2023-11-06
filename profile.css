@@ -1,0 +1,129 @@
+body {
+    font-family: cooper;
+    background-color: #f5eef8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f9d9e2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    width:500px;
+    height:500px; 
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  } 
+
+  nav {
+    background-color: #ffebf3;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* nav a {
+    text-decoration: none;
+    color: #6d5a7f;
+} */
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+} */
+
+/* .profile h2 {
+    color: #6d5a7f;
+    margin: 10px 0;
+}
+
+.user-activity h2 {
+    color: #6d5a7f;
+} */
+
+.user-activity ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.user-activity li {
+    color: #3c3246;
+    margin-bottom: 10px;
+}
+
+
+a:link, a:visited {
+    background-color: #ffebf3
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: hotpink;
+    color: white;
+  }
+
+  main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+  footer {
+    background-color: #f5eef8;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+*********mobile Version*****
+    
+@media screen and (width>=360px){
+
+    body{
+        margin: 0;
+    }
+    
+    div{
+        width: 100vw;
+        height: 100vh;
+    }
+}

@@ -1,0 +1,106 @@
+body {
+    font-family: cooper;
+    background-color: #f5eef8;
+    margin: 0;
+    padding: 5px;
+}
+
+header {
+    background-color: #f9d9e2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    width:470px;
+    height:370px;
+    
+}
+h1 {
+    font-size: 50px;
+}
+
+nav {
+    background-color: #ffebf3;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+a:link, a:visited {
+    background-color: #ffebf3
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: hotpink;
+    color: white;
+  }
+
+  .container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f5eef8;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  div.scroll-container {
+    background-color: #fff;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }
+
+   *********mobile Version*****
+    
+   @media screen and (width>=800px){
+
+    body{
+        margin: 0;
+    }
+    
+    div{
+        width: 100vw;
+        height: 100vh;
+    }
+}
